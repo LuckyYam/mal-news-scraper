@@ -1,5 +1,5 @@
 {
-  "name": "mal-news-scraper",
+  "name": "@shineiichijo/mal-news-scraper",
   "description": "Scraps news contents from MyAnimeList",
   "version": "0.0.1",
   "main": "./dist/index.js",
@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/LuckyYam/mal-news-scraper/issues"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/LuckyYam/mal-news-scraper.git"
