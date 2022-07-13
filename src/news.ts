@@ -37,8 +37,8 @@ export const scrapNews = async (query: string | number): Promise<INews> => {
                 title
             }
         })
-        .catch(() => {
-            throw new Error('Invalid news ID or URL for MyAnimeList')
+        .catch((err) => {
+            throw new Error(err.message)
         })
 }
 
